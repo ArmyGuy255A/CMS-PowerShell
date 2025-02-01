@@ -1,0 +1,38 @@
+{
+    "AdminMailboxes": [
+        "admin1@contoso.com",
+        "group-mailbox@contoso.com"
+    ],
+    "Automation": {
+        "CiscoMeetingServer": {
+            "AdditionalNotificationEmails": [
+                "meeting-managers@contoso.com"
+            ],
+            "Servers": [
+                "https://1.1.1.1:445",
+                "https://2.2.2.2:445",
+                "https://3.3.3.3:445"
+            ],
+            "BannerText": "CLASSIFICATION // RELEASABILITY",
+            "EndingBannerText": "ENDING SOON",
+            "MeetingParticipantLimit": 45,
+            "MeetingPreparationTimeInMinutes": 30,
+            "StandardMeetingDurationInMinutes": 90,
+            "ExtendedMeetingDurationInMinutes": 120,
+            "LongMeetingDurationInMinutes": 180,
+            "MeetingWarningThresholdInMinutes": 5,
+            "ExtendedMeetings": [
+                "ROOM 1",
+                "ROOM 2"
+            ],
+            "LongMeetings": [
+                "ROOM 3",
+                "ROOM 4"
+            ],
+            "ExemptMeetings": [
+                "HELPDESK ROOM",
+                "VIP ROOM"
+            ]
+        }
+    }
+}
